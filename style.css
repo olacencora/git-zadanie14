@@ -1,0 +1,36 @@
+h1
+{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px #6e6e6e;
+}
+h3
+{
+    text-transform: uppercase;
+}
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    /* czytaj czcionke verdana jesli jej nie ma to helvetica, sans-serif - bezszeryfowe - bez ozdobnikow */
+    background-color: #7c9b85;
+    background-image: url('pic3.jpg');
+    background-repeat: no-repeat;
+    /* nie powtarzac obrazu / repeat-x - powtarzaj w poziomie*/
+    background-position: 50% 50%;
+    /* umiejscowienie obrazka tla od lewej 20% od gory 100% - lewy dolny rog */
+    background-size: cover; /*zdjecie wpelnia ekran, moze sie uciac z dolu lub prawej*/
+    background-attachment: fixed;
+    /* fixed- obrazek tla przyczepiony zgodnie z ekranem // scroll- obrazek przyczepiony zgodnie z wymiarami calej strony*/
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  p
+  {
+    text-indent: 20px;
+    /* wcięcie tekstu */
+  }
+  img
+  {
+      width: 400px;
+      height: 264px;
+  }
+  
